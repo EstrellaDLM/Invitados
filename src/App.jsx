@@ -25,7 +25,7 @@ function App() {
             <img className="h-full w-full absolute" src="public/invv.jpg" alt="" />
         <div className="absolute z-10 flex justify-between items-end w-full h-1/3 bottom-1 p-2">
 
-              <p className="text-white text-sm" >{invitado.Usuario}</p>
+  <p className="text-white text-[10px]" >{invitado.Invitados}</p>
               <img className="w-12 h-12" src={invitado.Encoder} alt="" />
             </div>
           </div>
